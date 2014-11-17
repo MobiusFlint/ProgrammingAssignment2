@@ -1,4 +1,4 @@
-## These functions store and returned the inverse of a matrix.
+## These functions store and return the inverse of a matrix.
 
 ## This first one computes the inverse of matrix x and caches the result
 makeCacheMatrix <- function(x = matrix()) {
@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
 }
 
-## This second function returns the cached datasoun
+## This second function returns the cached data
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
   if(!is.null(m)) {
